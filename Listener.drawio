@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-08T13:07:40.525Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="xb-B9a4_PEZwc4gWlfN-" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-08T13:10:46.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="teI6IT5uY_Azum0uoO3_" version="14.7.6" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -42,6 +42,16 @@
             <mxPoint x="680" y="620" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="8NJGGLODSZkwPRBtzhF9-50" value="循环同步逻辑" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1">
+          <mxGeometry x="-0.2" y="20" relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="200" />
+            </Array>
+            <mxPoint x="65" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="分布式锁" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="80" width="100" height="810" as="geometry" />
         </mxCell>
@@ -75,7 +85,7 @@
           <mxGeometry x="730" y="80" width="100" height="670" as="geometry" />
         </mxCell>
         <mxCell id="8NJGGLODSZkwPRBtzhF9-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="8NJGGLODSZkwPRBtzhF9-7">
-          <mxGeometry x="45" y="565" width="10" height="65" as="geometry" />
+          <mxGeometry x="45" y="570" width="10" height="65" as="geometry" />
         </mxCell>
         <mxCell id="8NJGGLODSZkwPRBtzhF9-9" value="成功，任务开始" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -141,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8NJGGLODSZkwPRBtzhF9-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="150" y="280" width="10" height="440" as="geometry" />
+          <mxGeometry x="150" y="300" width="10" height="420" as="geometry" />
         </mxCell>
         <mxCell id="8NJGGLODSZkwPRBtzhF9-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="295" y="770" width="10" height="80" as="geometry" />
