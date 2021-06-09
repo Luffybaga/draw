@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-06-09T05:35:00.553Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="kNgZJEpQyw9lSRkW7rpu" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-09T05:38:06.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="3evRvKorbvKtbaay8_Ln" version="14.7.6" type="github">
   <diagram id="kE0A7_xDF46XmdOOy0-5" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="cEDnHxhPDUiLTpFMf11G-1" value="mina/activtiy-biz" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="80" width="120" height="810" as="geometry" />
+          <mxGeometry x="100" y="80" width="120" height="690" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cEDnHxhPDUiLTpFMf11G-1">
-          <mxGeometry x="45" y="70" width="10" height="740" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="620" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-3" value="保存活动商品" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="cEDnHxhPDUiLTpFMf11G-1" target="cEDnHxhPDUiLTpFMf11G-2">
           <mxGeometry relative="1" as="geometry">
@@ -58,13 +58,16 @@
           <mxGeometry x="270" y="80" width="100" height="660" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-16" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cEDnHxhPDUiLTpFMf11G-15">
-          <mxGeometry x="45" y="150" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="230" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cEDnHxhPDUiLTpFMf11G-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="cEDnHxhPDUiLTpFMf11G-15">
+          <mxGeometry x="45" y="340" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-17" value="关系服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="70" width="100" height="810" as="geometry" />
+          <mxGeometry x="420" y="80" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-18" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="cEDnHxhPDUiLTpFMf11G-17">
-          <mxGeometry x="45" y="600" width="10" height="70" as="geometry" />
+          <mxGeometry x="45" y="590" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-23" value="根据goodsId查找该商品相关数据" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.3;exitY=-0.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cEDnHxhPDUiLTpFMf11G-4" target="cEDnHxhPDUiLTpFMf11G-15">
           <mxGeometry x="-0.0853" y="9" relative="1" as="geometry">
@@ -93,10 +96,10 @@
             <mxPoint x="530" y="340" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cEDnHxhPDUiLTpFMf11G-29" value="调用商品更新的SPI执行同步" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.47;entryY=0.523;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cEDnHxhPDUiLTpFMf11G-7" target="cEDnHxhPDUiLTpFMf11G-15">
+        <mxCell id="cEDnHxhPDUiLTpFMf11G-29" value="调用商品更新的SPI执行同步" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cEDnHxhPDUiLTpFMf11G-7">
           <mxGeometry x="-0.0143" y="10" relative="1" as="geometry">
             <mxPoint x="200" y="530" as="sourcePoint" />
-            <mxPoint x="607" y="526.05" as="targetPoint" />
+            <mxPoint x="317" y="414" as="targetPoint" />
             <mxPoint as="offset" />
             <Array as="points">
               <mxPoint x="317" y="414" />
@@ -114,6 +117,9 @@
         </mxCell>
         <mxCell id="cEDnHxhPDUiLTpFMf11G-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
           <mxGeometry x="155" y="675" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cEDnHxhPDUiLTpFMf11G-41" value="更新商品并记录快照" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
