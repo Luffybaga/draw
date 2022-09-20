@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-20T08:36:18.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="UPw4Bm7vRb6WcJdOn5gc" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-20T08:37:33.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="x-iyKWuqcWhXdv03-kqr" version="20.2.8" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1422" dy="1612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -25,23 +25,11 @@
         <mxCell id="7baba1c4bc27f4b0-4" value="商品库分类" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="540" y="110" width="100" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="uvjcX-9irBK1Zf8yvH0O-19" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;写活动商品分类顺序&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;活动商品标签&lt;/font&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="7baba1c4bc27f4b0-4">
-          <mxGeometry x="-40" y="370" width="130" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-5" value="活动商品" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="430" y="110" width="100" height="580" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-5" vertex="1">
           <mxGeometry x="50" y="300" width="10" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="uvjcX-9irBK1Zf8yvH0O-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="7baba1c4bc27f4b0-5">
-          <mxGeometry x="55" y="380" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="uvjcX-9irBK1Zf8yvH0O-18" value="" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.7;entryY=1;entryPerimeter=0;entryDx=0;entryDy=0;" edge="1" parent="7baba1c4bc27f4b0-5" source="uvjcX-9irBK1Zf8yvH0O-17" target="uvjcX-9irBK1Zf8yvH0O-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="65.00333333333356" y="325" as="sourcePoint" />
-            <mxPoint x="70.00333333333356" y="363.3333333333335" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-6" value="背景图" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
           <mxGeometry x="650" y="110" width="100" height="670" as="geometry" />
@@ -93,7 +81,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="7baba1c4bc27f4b0-8" vertex="1">
-          <mxGeometry x="380" y="210" width="10" height="180" as="geometry" />
+          <mxGeometry x="380" y="230" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-23" value="转换数据，写活动商品" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;entryX=0.1;entryY=0.156;entryDx=0;entryDy=0;entryPerimeter=0;" parent="7baba1c4bc27f4b0-8" source="7baba1c4bc27f4b0-9" target="7baba1c4bc27f4b0-16" edge="1">
           <mxGeometry x="0.0903" y="8" relative="1" as="geometry">
@@ -115,11 +103,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="uvjcX-9irBK1Zf8yvH0O-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="7baba1c4bc27f4b0-8">
-          <mxGeometry x="390" y="315" width="10" height="40" as="geometry" />
+          <mxGeometry x="390" y="295" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uvjcX-9irBK1Zf8yvH0O-27" value="&lt;span style=&quot;font-family: Verdana; font-size: 12px; text-align: center; background-color: rgb(248, 249, 250);&quot;&gt;生成活动商品ID、写活动商品、规格、库存&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#000000;exitX=0.9;exitY=0.417;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="uvjcX-9irBK1Zf8yvH0O-26" parent="7baba1c4bc27f4b0-8" source="7baba1c4bc27f4b0-16">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.1399" y="10" relative="1" as="geometry">
             <mxPoint x="340" y="310" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uvjcX-9irBK1Zf8yvH0O-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontColor=#000000;" vertex="1" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry x="385" y="390" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uvjcX-9irBK1Zf8yvH0O-31" value="&lt;div style=&quot;font-size: 12px; background-color: rgb(248, 249, 250); text-align: center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;写活动商品分类顺序&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 12px; background-color: rgb(248, 249, 250); text-align: center;&quot;&gt;&lt;font face=&quot;Verdana&quot;&gt;活动商品标签&lt;/font&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontColor=#000000;" edge="1" target="uvjcX-9irBK1Zf8yvH0O-30" parent="7baba1c4bc27f4b0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="370" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="420" y="370" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-29" value="写GHOME FEED，但不写USER FEED." style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" parent="1" source="7baba1c4bc27f4b0-8" target="7baba1c4bc27f4b0-28" edge="1">
