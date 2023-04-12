@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-12T11:31:17.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="8hZWsgYozCLEKk2S65Dw" version="20.8.20" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-12T11:31:25.417Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="Dua9XIkmvowOj4nFjJfd" version="20.8.20" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
           <mxGeometry x="489.99" y="520" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FcikCSmCfjETzu5ch7ja-62" value="1、结果对象的field需要定义一个规则，以便于客户端可以解析，对应入参对象。在多层对象或list中定位到是哪个对象的哪个值变化了。&lt;br&gt;2、参考JsonCompare&lt;br&gt;&lt;br&gt;3、另外，此时或许需要同时返回一个对象，即包含全部对象字段的结果，这样可以定位到哪个商品名称的哪个规格的sku的库存改了。&lt;br&gt;客户端自由读取数据。如果不带上整套id关系恐怕无法实现。这样一来就不能限定只查前100条历史记录了" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="750" y="910" width="300" height="210" as="geometry" />
+          <mxGeometry x="50" y="700" width="300" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
