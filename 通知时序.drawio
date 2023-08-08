@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T03:32:09.469Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="csYS3P-H4icFKnhMcR1I" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T03:32:57.716Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="NY-Nje1XP97vXg84GNj_" version="21.6.6" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2092" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,7 +24,7 @@
         <mxCell id="gyNTy8IUgfwNoTlgnFIe-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry x="55" y="150" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gyNTy8IUgfwNoTlgnFIe-5" value="1. 校验过滤（哪些活动类型不发）&lt;br style=&quot;font-size: 13px;&quot;&gt;2. 指定用于发消息的appId&lt;br style=&quot;font-size: 13px;&quot;&gt;3. 组装数据msg_body。&lt;br style=&quot;font-size: 13px;&quot;&gt;反查数据，根据已知模板格式，填充data_map: &lt;br style=&quot;font-size: 13px;&quot;&gt;thing1={orderNo},name2={nickname}，&lt;br style=&quot;font-size: 13px;&quot;&gt;处理wx模板规定的长度限制，超出20个字显示为...&lt;br style=&quot;font-size: 13px;&quot;&gt;4. 通知跳转页面page+param&lt;br style=&quot;font-size: 13px;&quot;&gt;5. 指定toUid和fromUid（这个不重要）&lt;br style=&quot;font-size: 13px;&quot;&gt;6. msgId （防止重复发送的兜底）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=13;" edge="1" target="gyNTy8IUgfwNoTlgnFIe-4" parent="aM9ryv3xv72pqoxQDRHE-5">
+        <mxCell id="gyNTy8IUgfwNoTlgnFIe-5" value="1. 校验过滤（哪些活动类型不发）&lt;br style=&quot;font-size: 13px;&quot;&gt;2. 指定用于发消息的appId&lt;br style=&quot;font-size: 13px;&quot;&gt;3. 指定模板，根据格式，填充data_map: &lt;br style=&quot;font-size: 13px;&quot;&gt;thing1={orderNo},name2={nickname}，&lt;br style=&quot;font-size: 13px;&quot;&gt;处理wx模板规定的长度限制，超出20个字显示为...&lt;br style=&quot;font-size: 13px;&quot;&gt;4. 通知跳转页面page+param&lt;br style=&quot;font-size: 13px;&quot;&gt;5. 指定toUid和fromUid（这个不重要）&lt;br style=&quot;font-size: 13px;&quot;&gt;6. msgId （防止重复发送的兜底）" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;fontSize=13;" edge="1" target="gyNTy8IUgfwNoTlgnFIe-4" parent="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry x="-0.2941" y="32" relative="1" as="geometry">
             <mxPoint x="60" y="130" as="sourcePoint" />
             <Array as="points">
