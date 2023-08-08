@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T03:40:59.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="auoYVrYJjQXiP-mlWBm5" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T03:41:21.768Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="5PuUt3U_179ykgyHvcTP" version="21.6.6" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="2092" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -84,7 +84,7 @@
         <mxCell id="gyNTy8IUgfwNoTlgnFIe-19" value="这里如果是用公众号发，组装的参数会有个别参数不一样" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="230" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gyNTy8IUgfwNoTlgnFIe-21" value="一次新增消息要做的事：&lt;br&gt;1. 发什么消息，小程序服务通知还是公众号。&lt;br&gt;2. wx开放平台，找到对应消息模板。&lt;br&gt;3. 数据库配置模板 pro_notice_scene. &lt;br&gt;notice模块需通过sr找temp_id&lt;br&gt;3. 定义sr_code枚举，order_msg_notice。并告知前端&lt;br&gt;4.询问前端，跳转页面路径，所需参数。&lt;br&gt;5. 决定在哪个消费者组下，添加一个tag。监听到就是发这个sr_code对应的消息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="gyNTy8IUgfwNoTlgnFIe-21" value="一次新增消息要做的事：&lt;br&gt;1. 发什么消息，小程序服务通知还是公众号。&lt;br&gt;2. wx开放平台，找到对应消息模板。&lt;br&gt;3. 数据库配置模板 pro_notice_scene. &lt;br&gt;notice模块需通过sr找temp_id&lt;br&gt;4. 定义sr_code枚举，order_msg_notice。并告知前端&lt;br&gt;5.询问前端，跳转页面路径，所需参数。&lt;br&gt;6. 决定在哪个消费者组下（十几个），添加一个tag。监听到就是发这个sr_code对应的消息" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry y="535" width="520" height="145" as="geometry" />
         </mxCell>
       </root>
